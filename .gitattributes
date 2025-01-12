@@ -1,0 +1,1 @@
+antibody_design_deep_fragment2_larger_n/all_cdr3_aa_heavy_n_uniq.fasta.phr filter=lfs diff=lfs merge=lfs -text

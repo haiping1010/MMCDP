@@ -1,0 +1,66 @@
+>id_76119
+Query  4  RLRSYY  9
+Sbjct  1  RLRSYY  6
+>id_76130
+Query  4  RLRSYY  9
+Sbjct  1  RLRTYY  6
+>id_76117
+Query  4  RLRSYY  9
+Sbjct  1  RLRSYF  6
+>id_76111
+Query  4  RLRSYY  9
+Sbjct  1  RLRSFY  6
+>id_40267
+Query  3  DRLRSYY  9
+Sbjct  1  QRVRSYY  7
+>id_76050
+Query  4  RLRSYY  9
+Sbjct  1  RLKSYY  6
+>id_16609
+Query  4  RLRSYY  9
+Sbjct  1  KLRSYY  6
+>id_76099
+Query  4  RLRSYY  9
+Sbjct  1  RLRNYY  6
+>id_76118
+Query  4  RLRSYY  9
+Sbjct  1  RLRSYH  6
+>id_76112
+Query  4  RLRSYY  9
+Sbjct  1  RLRSHY  6
+>id_75866
+Query  4  RLRSYY  9
+Sbjct  1  RIRTYY  6
+>id_76128
+Query  4  RLRSYY  9
+Sbjct  1  RLRTYF  6
+>id_76122
+Query  4  RLRSYY  9
+Sbjct  1  RLRTFY  6
+>id_76085
+Query  4  RLRSYY  9
+Sbjct  1  RLRGYY  6
+>id_76087
+Query  4  RLRSYY  9
+Sbjct  1  RLRHYY  6
+>id_75865
+Query  4  RLRSYY  9
+Sbjct  1  RIRSYF  6
+>id_76090
+Query  4  RLRSYY  9
+Sbjct  1  RLRMYY  6
+>id_76096
+Query  4  RLRSYY  9
+Sbjct  1  RLRNYF  6
+>id_76091
+Query  4  RLRSYY  9
+Sbjct  1  RLRNFY  6
+>id_76106
+Query  4  RLRSYY  9
+Sbjct  1  RLRRYY  6
+>id_76088
+Query  4  RLRSYY  9
+Sbjct  1  RLRIYY  6
+>id_80749
+Query  4  RLRSYY  9
+Sbjct  1  RVRNYY  6

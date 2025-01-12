@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "all_cdr1_aa_light_n_uniq.fasta",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "all_cdr1_aa_light_n_uniq.fasta",
+  "number-of-letters": 893874,
+  "number-of-sequences": 107215,
+  "last-updated": "2024-08-01T14:25:00",
+  "number-of-volumes": 1,
+  "bytes-total": 11402276,
+  "bytes-to-cache": 1858946,
+  "files": [
+    "all_cdr1_aa_light_n_uniq.fasta.pdb",
+    "all_cdr1_aa_light_n_uniq.fasta.phr",
+    "all_cdr1_aa_light_n_uniq.fasta.pin",
+    "all_cdr1_aa_light_n_uniq.fasta.pot",
+    "all_cdr1_aa_light_n_uniq.fasta.psq",
+    "all_cdr1_aa_light_n_uniq.fasta.ptf",
+    "all_cdr1_aa_light_n_uniq.fasta.pto"
+  ]
+}

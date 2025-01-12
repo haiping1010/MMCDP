@@ -1,0 +1,317 @@
+BLASTP 2.16.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: all_cdr1_aa_light_n_uniq.fasta
+           107,215 sequences; 893,874 total letters
+
+
+
+Query= L1
+
+Length=11
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+id_76119                                                              15.4    33   
+id_76130                                                              14.6    99   
+id_76117                                                              14.6    110  
+id_76111                                                              14.6    110  
+id_40267                                                              14.6    132  
+id_76050                                                              14.6    134  
+id_16609                                                              14.6    134  
+id_76099                                                              14.2    157  
+id_76118                                                              14.2    224  
+id_76112                                                              14.2    224  
+id_75866                                                              13.9    296  
+id_76128                                                              13.9    317  
+id_76122                                                              13.9    317  
+id_76085                                                              13.9    317  
+id_76087                                                              13.9    339  
+id_75865                                                              13.9    345  
+id_76090                                                              13.9    438  
+id_76096                                                              13.5    501  
+id_76091                                                              13.5    501  
+id_76106                                                              13.5    603  
+id_76088                                                              13.5    613  
+id_80749                                                              13.5    711  
+
+
+>id_76119
+Length=6
+
+ Score = 15.4 bits (28),  Expect = 33, Method: Compositional matrix adjust.
+ Identities = 6/6 (100%), Positives = 6/6 (100%), Gaps = 0/6 (0%)
+
+Query  4  RLRSYY  9
+          RLRSYY
+Sbjct  1  RLRSYY  6
+
+
+>id_76130
+Length=6
+
+ Score = 14.6 bits (26),  Expect = 99, Method: Compositional matrix adjust.
+ Identities = 5/6 (83%), Positives = 6/6 (100%), Gaps = 0/6 (0%)
+
+Query  4  RLRSYY  9
+          RLR+YY
+Sbjct  1  RLRTYY  6
+
+
+>id_76117
+Length=6
+
+ Score = 14.6 bits (26),  Expect = 110, Method: Compositional matrix adjust.
+ Identities = 5/6 (83%), Positives = 6/6 (100%), Gaps = 0/6 (0%)
+
+Query  4  RLRSYY  9
+          RLRSY+
+Sbjct  1  RLRSYF  6
+
+
+>id_76111
+Length=6
+
+ Score = 14.6 bits (26),  Expect = 110, Method: Compositional matrix adjust.
+ Identities = 5/6 (83%), Positives = 6/6 (100%), Gaps = 0/6 (0%)
+
+Query  4  RLRSYY  9
+          RLRS+Y
+Sbjct  1  RLRSFY  6
+
+
+>id_40267
+Length=7
+
+ Score = 14.6 bits (26),  Expect = 132, Method: Compositional matrix adjust.
+ Identities = 5/7 (71%), Positives = 6/7 (86%), Gaps = 0/7 (0%)
+
+Query  3  DRLRSYY  9
+           R+RSYY
+Sbjct  1  QRVRSYY  7
+
+
+>id_76050
+Length=6
+
+ Score = 14.6 bits (26),  Expect = 134, Method: Compositional matrix adjust.
+ Identities = 5/6 (83%), Positives = 6/6 (100%), Gaps = 0/6 (0%)
+
+Query  4  RLRSYY  9
+          RL+SYY
+Sbjct  1  RLKSYY  6
+
+
+>id_16609
+Length=6
+
+ Score = 14.6 bits (26),  Expect = 134, Method: Compositional matrix adjust.
+ Identities = 5/6 (83%), Positives = 6/6 (100%), Gaps = 0/6 (0%)
+
+Query  4  RLRSYY  9
+          +LRSYY
+Sbjct  1  KLRSYY  6
+
+
+>id_76099
+Length=6
+
+ Score = 14.2 bits (25),  Expect = 157, Method: Compositional matrix adjust.
+ Identities = 5/6 (83%), Positives = 6/6 (100%), Gaps = 0/6 (0%)
+
+Query  4  RLRSYY  9
+          RLR+YY
+Sbjct  1  RLRNYY  6
+
+
+>id_76118
+Length=6
+
+ Score = 14.2 bits (25),  Expect = 224, Method: Compositional matrix adjust.
+ Identities = 5/6 (83%), Positives = 6/6 (100%), Gaps = 0/6 (0%)
+
+Query  4  RLRSYY  9
+          RLRSY+
+Sbjct  1  RLRSYH  6
+
+
+>id_76112
+Length=6
+
+ Score = 14.2 bits (25),  Expect = 224, Method: Compositional matrix adjust.
+ Identities = 5/6 (83%), Positives = 6/6 (100%), Gaps = 0/6 (0%)
+
+Query  4  RLRSYY  9
+          RLRS+Y
+Sbjct  1  RLRSHY  6
+
+
+>id_75866
+Length=6
+
+ Score = 13.9 bits (24),  Expect = 296, Method: Compositional matrix adjust.
+ Identities = 4/6 (67%), Positives = 6/6 (100%), Gaps = 0/6 (0%)
+
+Query  4  RLRSYY  9
+          R+R+YY
+Sbjct  1  RIRTYY  6
+
+
+>id_76128
+Length=6
+
+ Score = 13.9 bits (24),  Expect = 317, Method: Compositional matrix adjust.
+ Identities = 4/6 (67%), Positives = 6/6 (100%), Gaps = 0/6 (0%)
+
+Query  4  RLRSYY  9
+          RLR+Y+
+Sbjct  1  RLRTYF  6
+
+
+>id_76122
+Length=6
+
+ Score = 13.9 bits (24),  Expect = 317, Method: Compositional matrix adjust.
+ Identities = 4/6 (67%), Positives = 6/6 (100%), Gaps = 0/6 (0%)
+
+Query  4  RLRSYY  9
+          RLR++Y
+Sbjct  1  RLRTFY  6
+
+
+>id_76085
+Length=6
+
+ Score = 13.9 bits (24),  Expect = 317, Method: Compositional matrix adjust.
+ Identities = 5/6 (83%), Positives = 5/6 (83%), Gaps = 0/6 (0%)
+
+Query  4  RLRSYY  9
+          RLR YY
+Sbjct  1  RLRGYY  6
+
+
+>id_76087
+Length=6
+
+ Score = 13.9 bits (24),  Expect = 339, Method: Compositional matrix adjust.
+ Identities = 5/6 (83%), Positives = 5/6 (83%), Gaps = 0/6 (0%)
+
+Query  4  RLRSYY  9
+          RLR YY
+Sbjct  1  RLRHYY  6
+
+
+>id_75865
+Length=6
+
+ Score = 13.9 bits (24),  Expect = 345, Method: Compositional matrix adjust.
+ Identities = 4/6 (67%), Positives = 6/6 (100%), Gaps = 0/6 (0%)
+
+Query  4  RLRSYY  9
+          R+RSY+
+Sbjct  1  RIRSYF  6
+
+
+>id_76090
+Length=6
+
+ Score = 13.9 bits (24),  Expect = 438, Method: Compositional matrix adjust.
+ Identities = 5/6 (83%), Positives = 5/6 (83%), Gaps = 0/6 (0%)
+
+Query  4  RLRSYY  9
+          RLR YY
+Sbjct  1  RLRMYY  6
+
+
+>id_76096
+Length=6
+
+ Score = 13.5 bits (23),  Expect = 501, Method: Compositional matrix adjust.
+ Identities = 4/6 (67%), Positives = 6/6 (100%), Gaps = 0/6 (0%)
+
+Query  4  RLRSYY  9
+          RLR+Y+
+Sbjct  1  RLRNYF  6
+
+
+>id_76091
+Length=6
+
+ Score = 13.5 bits (23),  Expect = 501, Method: Compositional matrix adjust.
+ Identities = 4/6 (67%), Positives = 6/6 (100%), Gaps = 0/6 (0%)
+
+Query  4  RLRSYY  9
+          RLR++Y
+Sbjct  1  RLRNFY  6
+
+
+>id_76106
+Length=6
+
+ Score = 13.5 bits (23),  Expect = 603, Method: Compositional matrix adjust.
+ Identities = 5/6 (83%), Positives = 5/6 (83%), Gaps = 0/6 (0%)
+
+Query  4  RLRSYY  9
+          RLR YY
+Sbjct  1  RLRRYY  6
+
+
+>id_76088
+Length=6
+
+ Score = 13.5 bits (23),  Expect = 613, Method: Compositional matrix adjust.
+ Identities = 5/6 (83%), Positives = 5/6 (83%), Gaps = 0/6 (0%)
+
+Query  4  RLRSYY  9
+          RLR YY
+Sbjct  1  RLRIYY  6
+
+
+>id_80749
+Length=6
+
+ Score = 13.5 bits (23),  Expect = 711, Method: Compositional matrix adjust.
+ Identities = 4/6 (67%), Positives = 6/6 (100%), Gaps = 0/6 (0%)
+
+Query  4  RLRSYY  9
+          R+R+YY
+Sbjct  1  RVRNYY  6
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.131    0.374    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9832614
+
+
+  Database: all_cdr1_aa_light_n_uniq.fasta
+    Posted date:  Aug 1, 2024  2:25 PM
+  Number of letters in database: 893,874
+  Number of sequences in database:  107,215
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

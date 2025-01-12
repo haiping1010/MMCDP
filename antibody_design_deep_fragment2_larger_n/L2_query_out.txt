@@ -1,0 +1,89 @@
+BLASTP 2.16.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: all_cdr2_aa_light_n_uniq.fasta
+           1,932 sequences; 13,580 total letters
+
+
+
+Query= L2
+
+Length=7
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+id_1065                                                               16.5    0.12 
+id_2961                                                               14.2    2.4  
+id_3971                                                               12.3    27   
+
+
+>id_1065
+Length=10
+
+ Score = 16.5 bits (31),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 6/6 (100%), Positives = 6/6 (100%), Gaps = 0/6 (0%)
+
+Query  1  GKNNRP  6
+          GKNNRP
+Sbjct  1  GKNNRP  6
+
+
+>id_2961
+Length=9
+
+ Score = 14.2 bits (25),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 5/5 (100%), Positives = 5/5 (100%), Gaps = 0/5 (0%)
+
+Query  3  NNRPS  7
+          NNRPS
+Sbjct  3  NNRPS  7
+
+
+>id_3971
+Length=7
+
+ Score = 12.3 bits (20),  Expect = 27, Method: Compositional matrix adjust.
+ Identities = 4/5 (80%), Positives = 5/5 (100%), Gaps = 0/5 (0%)
+
+Query  3  NNRPS  7
+          NNRP+
+Sbjct  3  NNRPN  7
+
+
+
+Lambda      K        H        a         alpha
+   0.296    0.122    0.360    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 95060
+
+
+  Database: all_cdr2_aa_light_n_uniq.fasta
+    Posted date:  Aug 1, 2024  2:30 PM
+  Number of letters in database: 13,580
+  Number of sequences in database:  1,932
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

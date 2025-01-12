@@ -1,0 +1,749 @@
+BLASTP 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: all_cdr2_aa_heavy_n_uniq.fasta
+           215,636 sequences; 1,735,185 total letters
+
+
+
+Query= H2
+
+Length=10
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  id_174728                                                           20.0    1.1  
+  id_175125                                                           19.2    2.2  
+  id_174756                                                           19.2    2.4  
+  id_164680                                                           19.2    2.5  
+  id_174782                                                           19.2    2.6  
+  id_61287                                                            18.9    3.2  
+  id_174707                                                           18.9    3.5  
+  id_201964                                                           18.9    3.6  
+  id_174716                                                           18.9    3.6  
+  id_175126                                                           18.5    3.7  
+  id_174739                                                           18.5    3.7  
+  id_174727                                                           18.5    3.9  
+  id_63204                                                            18.5    4.1  
+  id_62550                                                            18.5    4.4  
+  id_175250                                                           18.5    4.5  
+  id_178092                                                           18.5    4.6  
+  id_172125                                                           18.5    4.7  
+  id_173747                                                           18.5    4.8  
+  id_174933                                                           18.5    5.0  
+  id_174734                                                           18.5    5.0  
+  id_175382                                                           18.1    5.4  
+  id_174850                                                           18.1    5.4  
+  id_174742                                                           18.1    5.4  
+  id_174731                                                           18.1    5.4  
+  id_4365                                                             18.1    5.5  
+  id_164691                                                           18.1    5.6  
+  id_174789                                                           18.1    5.9  
+  id_164709                                                           18.1    6.0  
+  id_164681                                                           18.1    6.0  
+  id_184276                                                           18.1    6.2  
+  id_175280                                                           18.1    6.4  
+  id_174740                                                           18.1    6.4  
+  id_189016                                                           18.1    6.4  
+  id_164679                                                           18.1    6.6  
+  id_175438                                                           17.7    6.9  
+  id_174743                                                           17.7    6.9  
+  id_61349                                                            17.7    7.1  
+  id_174726                                                           17.7    7.2  
+  id_164672                                                           17.7    7.3  
+  id_164674                                                           17.7    7.6  
+  id_61457                                                            17.7    7.7  
+  id_61289                                                            17.7    7.7  
+  id_175129                                                           17.7    7.9  
+  id_174787                                                           17.7    7.9  
+  id_201975                                                           17.7    8.0  
+  id_175213                                                           17.7    8.2  
+  id_174764                                                           17.7    8.2  
+  id_174781                                                           17.7    8.4  
+  id_164861                                                           17.7    8.4  
+  id_164685                                                           17.7    8.4  
+  id_174826                                                           17.7    8.6  
+  id_174730                                                           17.7    8.6  
+  id_201995                                                           17.7    8.7  
+  id_174755                                                           17.7    9.1  
+  id_174754                                                           17.7    9.1  
+  id_175729                                                           17.7    9.1  
+  id_61210                                                            17.3    9.7  
+  id_175254                                                           17.3    9.8  
+
+
+> id_174728
+Length=8
+
+ Score = 20.0 bits (40),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 8/8 (100%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNPDSGDT
+Sbjct  1  MNPDSGDT  8
+
+
+> id_175125
+Length=11
+
+ Score = 19.2 bits (38),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 7/9 (78%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  1  MNPDSGDTG  9
+          MNP+SGD+G
+Sbjct  1  MNPNSGDSG  9
+
+
+> id_174756
+Length=8
+
+ Score = 19.2 bits (38),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNPD+GDT
+Sbjct  1  MNPDTGDT  8
+
+
+> id_164680
+Length=8
+
+ Score = 19.2 bits (38),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          +NPDSGDT
+Sbjct  1  LNPDSGDT  8
+
+
+> id_174782
+Length=8
+
+ Score = 19.2 bits (38),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNP+SGDT
+Sbjct  1  MNPESGDT  8
+
+
+> id_61287
+Length=8
+
+ Score = 18.9 bits (37),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          +NPDSGDT
+Sbjct  1  INPDSGDT  8
+
+
+> id_174707
+Length=8
+
+ Score = 18.9 bits (37),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNPD+GDT
+Sbjct  1  MNPDNGDT  8
+
+
+> id_201964
+Length=8
+
+ Score = 18.9 bits (37),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          +NPDSGDT
+Sbjct  1  VNPDSGDT  8
+
+
+> id_174716
+Length=8
+
+ Score = 18.9 bits (37),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNPD GDT
+Sbjct  1  MNPDRGDT  8
+
+
+> id_175126
+Length=8
+
+ Score = 18.5 bits (36),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNP+SGDT
+Sbjct  1  MNPNSGDT  8
+
+
+> id_174739
+Length=8
+
+ Score = 18.5 bits (36),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNPDSG+T
+Sbjct  1  MNPDSGNT  8
+
+
+> id_174727
+Length=8
+
+ Score = 18.5 bits (36),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNPDSGD 
+Sbjct  1  MNPDSGDA  8
+
+
+> id_63204
+Length=13
+
+ Score = 18.5 bits (36),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 6/10 (60%), Positives = 9/10 (90%), Gaps = 0/10 (0%)
+
+Query  1  MNPDSGDTGF  10
+          +NP+SGDT +
+Sbjct  1  INPNSGDTNY  10
+
+
+> id_62550
+Length=11
+
+ Score = 18.5 bits (36),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 6/10 (60%), Positives = 8/10 (80%), Gaps = 0/10 (0%)
+
+Query  1  MNPDSGDTGF  10
+          +NP SGDT +
+Sbjct  1  INPKSGDTKY  10
+
+
+> id_175250
+Length=8
+
+ Score = 18.5 bits (36),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNP SGDT
+Sbjct  1  MNPQSGDT  8
+
+
+> id_178092
+Length=8
+
+ Score = 18.5 bits (36),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          M+PDSGDT
+Sbjct  1  MSPDSGDT  8
+
+
+> id_172125
+Length=8
+
+ Score = 18.5 bits (36),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          M+PDSGDT
+Sbjct  1  MDPDSGDT  8
+
+
+> id_173747
+Length=8
+
+ Score = 18.5 bits (36),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          M PDSGDT
+Sbjct  1  MKPDSGDT  8
+
+
+> id_174933
+Length=8
+
+ Score = 18.5 bits (36),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNP SGDT
+Sbjct  1  MNPKSGDT  8
+
+
+> id_174734
+Length=8
+
+ Score = 18.5 bits (36),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNPDSG T
+Sbjct  1  MNPDSGKT  8
+
+
+> id_175382
+Length=8
+
+ Score = 18.1 bits (35),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNP SGDT
+Sbjct  1  MNPSSGDT  8
+
+
+> id_174850
+Length=8
+
+ Score = 18.1 bits (35),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNP SGDT
+Sbjct  1  MNPHSGDT  8
+
+
+> id_174742
+Length=8
+
+ Score = 18.1 bits (35),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNPDSG T
+Sbjct  1  MNPDSGST  8
+
+
+> id_174731
+Length=8
+
+ Score = 18.1 bits (35),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNPDSG T
+Sbjct  1  MNPDSGHT  8
+
+
+> id_4365
+Length=8
+
+ Score = 18.1 bits (35),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+           NPDSGDT
+Sbjct  1  FNPDSGDT  8
+
+
+> id_164691
+Length=8
+
+ Score = 18.1 bits (35),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 6/8 (75%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          +NPD+GDT
+Sbjct  1  LNPDTGDT  8
+
+
+> id_174789
+Length=8
+
+ Score = 18.1 bits (35),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 6/8 (75%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNP++GDT
+Sbjct  1  MNPETGDT  8
+
+
+> id_164709
+Length=8
+
+ Score = 18.1 bits (35),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 6/8 (75%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          +NP+SGDT
+Sbjct  1  LNPESGDT  8
+
+
+> id_164681
+Length=8
+
+ Score = 18.1 bits (35),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 6/8 (75%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          +NPDSG+T
+Sbjct  1  LNPDSGET  8
+
+
+> id_184276
+Length=8
+
+ Score = 18.1 bits (35),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 7/7 (100%), Positives = 7/7 (100%), Gaps = 0/7 (0%)
+
+Query  2  NPDSGDT  8
+          NPDSGDT
+Sbjct  2  NPDSGDT  8
+
+
+> id_175280
+Length=8
+
+ Score = 18.1 bits (35),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNP SGDT
+Sbjct  1  MNPRSGDT  8
+
+
+> id_174740
+Length=8
+
+ Score = 18.1 bits (35),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNPDSG T
+Sbjct  1  MNPDSGRT  8
+
+
+> id_189016
+Length=8
+
+ Score = 18.1 bits (35),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 7/7 (100%), Positives = 7/7 (100%), Gaps = 0/7 (0%)
+
+Query  2  NPDSGDT  8
+          NPDSGDT
+Sbjct  2  NPDSGDT  8
+
+
+> id_164679
+Length=8
+
+ Score = 18.1 bits (35),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 6/8 (75%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          +NPDSGD+
+Sbjct  1  LNPDSGDS  8
+
+
+> id_175438
+Length=8
+
+ Score = 17.7 bits (34),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNP SGDT
+Sbjct  1  MNPTSGDT  8
+
+
+> id_174743
+Length=8
+
+ Score = 17.7 bits (34),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNPDSG T
+Sbjct  1  MNPDSGTT  8
+
+
+> id_61349
+Length=8
+
+ Score = 17.7 bits (34),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 6/8 (75%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          +NPD+GDT
+Sbjct  1  INPDTGDT  8
+
+
+> id_174726
+Length=8
+
+ Score = 17.7 bits (34),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNPDSG T
+Sbjct  1  MNPDSGAT  8
+
+
+> id_164672
+Length=8
+
+ Score = 17.7 bits (34),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 6/8 (75%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          +NPD GDT
+Sbjct  1  LNPDKGDT  8
+
+
+> id_164674
+Length=8
+
+ Score = 17.7 bits (34),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 6/8 (75%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          +NPD+GDT
+Sbjct  1  LNPDNGDT  8
+
+
+> id_61457
+Length=8
+
+ Score = 17.7 bits (34),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 6/8 (75%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          +NP+SGDT
+Sbjct  1  INPESGDT  8
+
+
+> id_61289
+Length=8
+
+ Score = 17.7 bits (34),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 6/8 (75%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          +NPDSG+T
+Sbjct  1  INPDSGET  8
+
+
+> id_175129
+Length=8
+
+ Score = 17.7 bits (34),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 6/8 (75%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNP+SG+T
+Sbjct  1  MNPNSGET  8
+
+
+> id_174787
+Length=8
+
+ Score = 17.7 bits (34),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 6/8 (75%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNP+SG+T
+Sbjct  1  MNPESGNT  8
+
+
+> id_201975
+Length=8
+
+ Score = 17.7 bits (34),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 6/8 (75%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          +NPD+GDT
+Sbjct  1  VNPDTGDT  8
+
+
+> id_175213
+Length=8
+
+ Score = 17.7 bits (34),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 6/8 (75%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNP++GDT
+Sbjct  1  MNPNTGDT  8
+
+
+> id_174764
+Length=8
+
+ Score = 17.7 bits (34),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 6/8 (75%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNPD+G+T
+Sbjct  1  MNPDTGNT  8
+
+
+> id_174781
+Length=8
+
+ Score = 17.7 bits (34),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 6/8 (75%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNP+ GDT
+Sbjct  1  MNPERGDT  8
+
+
+> id_164861
+Length=8
+
+ Score = 17.7 bits (34),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 6/8 (75%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          +NP+SGDT
+Sbjct  1  LNPNSGDT  8
+
+
+> id_164685
+Length=8
+
+ Score = 17.7 bits (34),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 6/8 (75%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          +NPDSG+T
+Sbjct  1  LNPDSGNT  8
+
+
+> id_174826
+Length=8
+
+ Score = 17.7 bits (34),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNP SGDT
+Sbjct  1  MNPGSGDT  8
+
+
+> id_174730
+Length=8
+
+ Score = 17.7 bits (34),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNPDSG T
+Sbjct  1  MNPDSGGT  8
+
+
+> id_201995
+Length=8
+
+ Score = 17.7 bits (34),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 6/8 (75%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          +NP+SGDT
+Sbjct  1  VNPESGDT  8
+
+
+> id_174755
+Length=8
+
+ Score = 17.7 bits (34),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 6/7 (86%), Positives = 7/7 (100%), Gaps = 0/7 (0%)
+
+Query  1  MNPDSGD  7
+          MNPD+GD
+Sbjct  1  MNPDTGD  7
+
+
+> id_174754
+Length=8
+
+ Score = 17.7 bits (34),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 6/7 (86%), Positives = 7/7 (100%), Gaps = 0/7 (0%)
+
+Query  1  MNPDSGD  7
+          MNPD+GD
+Sbjct  1  MNPDTGD  7
+
+
+> id_175729
+Length=8
+
+ Score = 17.7 bits (34),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MN DSGDT
+Sbjct  1  MNSDSGDT  8
+
+
+> id_61210
+Length=8
+
+ Score = 17.3 bits (33),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 6/8 (75%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          +NPD+GDT
+Sbjct  1  INPDNGDT  8
+
+
+> id_175254
+Length=8
+
+ Score = 17.3 bits (33),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 6/8 (75%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  1  MNPDSGDT  8
+          MNP +GDT
+Sbjct  1  MNPQTGDT  8
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.138    0.435    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17351850
+
+
+  Database: all_cdr2_aa_heavy_n_uniq.fasta
+    Posted date:  Mar 1, 2024  9:15 PM
+  Number of letters in database: 1,735,185
+  Number of sequences in database:  215,636
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

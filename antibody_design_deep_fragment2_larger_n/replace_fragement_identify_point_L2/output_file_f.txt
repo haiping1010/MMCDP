@@ -1,0 +1,9 @@
+>id_1065
+Query  1  GKNNRP  6
+Sbjct  1  GKNNRP  6
+>id_2961
+Query  3  NNRPS  7
+Sbjct  3  NNRPS  7
+>id_3971
+Query  3  NNRPS  7
+Sbjct  3  NNRPN  7
