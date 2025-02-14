@@ -1,0 +1,2 @@
+python read_smi_protein_nnn.py
+python training_nn3_load_name.py
